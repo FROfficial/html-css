@@ -1,0 +1,20 @@
+img {
+    width: 300px;
+    display: block;
+}
+.video-preview {
+    display: inline-block;
+    width: 300px;
+    margin: 5px;
+}
+
+.video-title {
+
+}
+
+.video-author {
+
+}
+.video-stats {
+
+}
