@@ -3,15 +3,38 @@
   <head>
     <title>Music Rating</title>
     <link rel="stylesheet" href="music-prototype.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="searchbar">
-      <input type="text" name="searchbar" id="searchbar" class="search-input" placeholder="Search">
-      <button class="search-button"><img src="search-icon.png" alt="Search" class="search-icon"></button>
+    <div>
+      <div class="navbar">
+        <div class="searchbar">
+          <input type="text" name="searchbar" id="searchbar" class="search-input" placeholder="Search">
+          <button class="search-button"><img src="search-icon.png" alt="Search" class="search-icon"></button>
+        </div>
+      </div>
+      <div class="navbar">
+        <a class="pages" href="/explore">Explore</a> 
+        <a class="pages" href="/reviews">Reviews</a> 
+      </div>
     </div>
     <div>
-      <p class="pages">Explore</p> 
-      <p class="pages">Reviews</p> 
+      <div class="album-result">
+        <div>
+          <img src="megadeth-album-cover.webp" class="album-art">
+        </div>
+        <div class="album-info">
+          <div style="display: inline-block;">
+            <div>
+              <p class="album-title">Rust in Peace</p>
+              <p class="album-year">1990</p>
+            </div>
+            <p>Megadeth</p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

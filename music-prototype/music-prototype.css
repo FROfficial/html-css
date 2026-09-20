@@ -1,3 +1,14 @@
+:root {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+}
+p {
+    margin: 0;
+}
+.navbar {
+    display: inline-block;
+    margin: 10px 20px;
+}
 .searchbar {
     display: flex;
     align-content: center;
@@ -26,4 +37,47 @@
     display: inline;
     margin: 5px 20px;
     color: rgb(61, 67, 75);
+    text-decoration: none;
+    transition: color .2s;
+}
+.pages:hover {
+    color:rgb(60, 140, 255);
+}
+.album-result {
+    display: flex;
+    align-content: center;
+}
+.album-result > div {
+    display: inline-block;
+}
+.album-result > img {
+    margin: 10px;
+}
+.album-art {
+    width: 150px;
+    box-shadow: 1px 1px 4px black;
+    margin: 0px 10px;
+}
+.album-title, .album-year {
+    display: inline-block;
+}
+.album-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.album-year {
+    font-size: 14px;
+    color: grey;
+}
+.album-score {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
+    justify-self: center;
+}
+.album-info {
+    height: 150px;
+    align-content: center;
+    display: flex;
 }

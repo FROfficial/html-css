@@ -1,20 +1,55 @@
+.searchbar {
+    display: block;
+}
+
+p {
+    font-family: Roboto, Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 img {
     width: 300px;
     display: block;
+    margin-bottom: 10px;
 }
+
 .video-preview {
     display: inline-block;
     width: 300px;
     margin: 5px;
+    vertical-align: top;
+}
+
+.video-channel-pfp {
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+
+.video-channel-pfp > img {
+    width: 80%;
+    border-radius: 30px;
+    margin: 0px 4px;
+}
+
+.video-information {
+    display: inline-block;
+    width: 200px;
 }
 
 .video-title {
-
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
 }
 
 .video-author {
-
+    margin-bottom: 4px;
 }
-.video-stats {
 
+.video-author, .video-stats {
+    font-size: 14px;
+    color: #606060
 }
